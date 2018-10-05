@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e4c1f9-01db-48ce-a561-cd510625eb61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-12-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-12-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-2-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-2-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-4-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-4-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-10-04T04-11-23Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2018-10-04T04-11-23Z-00000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-13-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-13-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-14-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-14-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-15-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-15-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-16-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-16-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-3-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-3-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-5-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-5-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-6-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-6-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000011" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/db/mongod.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/auth-router.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/auth-router.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/lib/bank-account-mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/lib/bank-account-mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/basic-auth-middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/basic-auth-middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/error-middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/error-middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/bankAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/bankAccount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/auth-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,11 +29,11 @@
         <counts>
           <entry key="env" value="6" />
           <entry key="eslintignore" value="2" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="js" value="49" />
           <entry key="json" value="10" />
           <entry key="log" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -64,8 +42,8 @@
           <entry key=".env file" value="1" />
           <entry key="JSON" value="10" />
           <entry key="JavaScript" value="49" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -80,13 +58,13 @@
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="5585" />
           <entry key="Markdown" value="163" />
-          <entry key="PLAIN_TEXT" value="92" />
+          <entry key="PLAIN_TEXT" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="78" />
-          <entry key="gitignore" value="14" />
+          <entry key="gitignore" value="19" />
           <entry key="js" value="5585" />
           <entry key="json" value="6" />
           <entry key="md" value="163" />
@@ -125,11 +103,32 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.travis.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1907">
+                  <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="30">
+                    <caret line="2" column="137" selection-start-line="2" selection-start-column="137" selection-end-line="2" selection-end-column="137" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -169,8 +168,6 @@
         <option value="$PROJECT_DIR$/src/__test__/lib/auth-router.test.js" />
         <option value="$PROJECT_DIR$/src/__test__/lib/test.env.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/__test__/lib/bank-account-mock.js" />
         <option value="$PROJECT_DIR$/src/model/bankAccount.js" />
         <option value="$PROJECT_DIR$/src/lib/error-middleware.js" />
@@ -179,6 +176,8 @@
         <option value="$PROJECT_DIR$/src/lib/basic-auth-middleware.js" />
         <option value="$PROJECT_DIR$/src/routes/auth-router.js" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -380,7 +379,7 @@
       <workItem from="1538607302830" duration="17964000" />
       <workItem from="1538675378238" duration="469000" />
       <workItem from="1538676438887" duration="6760000" />
-      <workItem from="1538698136440" duration="2358000" />
+      <workItem from="1538698136440" duration="2673000" />
     </task>
     <servers />
   </component>
@@ -405,7 +404,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33097000" />
+    <option name="totallyTimeSpent" value="33412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="1280" height="708" extended-state="0" />
@@ -518,21 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="542">
-            <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.eslintignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -619,8 +603,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1907">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="137" selection-start-line="2" selection-start-column="137" selection-end-line="2" selection-end-column="137" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

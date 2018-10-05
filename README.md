@@ -1,6 +1,6 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Basic Auth And Sign in 
 ====
-[![Build Status](https://travis-ci.com/ashabrai/11-14-express-api.svg?branch=master)]
+[![Build Status](https://travis-ci.com/ashabrai/BasicAuthorization.svg?branch=master)](https://travis-ci.com/ashabrai/BasicAuthorization)
 
 Creating a basic authorization middleware, signup and sign in routes. 
 
