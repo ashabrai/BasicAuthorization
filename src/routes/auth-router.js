@@ -29,10 +29,10 @@ router.post('/api/signup', jsonParser, (request, response, next) => {
 });
 
 router.get('/api/login', basicAuthMiddleware, (request, response, next) => {
-  if (!request.bankAccount) {
+  if (!request.BankAccount) {
     return next(new HttpError(400, 'Bad Request'));
   }
-  return request.bankAccount.pCreateToken()
+  return request.BankAccount.pCreateToken()
     .then((token) => {
       logger.log(logger.INFO, 'Responding with 200 status code and a token');
       return response.json({ token });

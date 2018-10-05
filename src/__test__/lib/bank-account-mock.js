@@ -17,6 +17,6 @@ bankAccountMock.pCreateMock = () => {
       mock.bankAccount = createdBankAccount;
       return mock;
     })
-    .catch(console.error);
+    .catch();
 };
 bankAccountMock.pCleanBankAccountMocks = () => BankAccount.remove({});

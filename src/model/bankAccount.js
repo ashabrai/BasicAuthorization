@@ -38,7 +38,9 @@ function pVerifyPassword(plainTextPassword) {
       }
       return this;
     })
-    .catch(console.error);
+    .catch((error) => {
+      throw error;
+    });
 }
 
 function pCreateToken() {

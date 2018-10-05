@@ -27,7 +27,7 @@ module.exports = (request, response, next) => {
       return account.pVerifyPassword(password);
     })
     .then((matchedAccount) => {
-      request.account = matchedAccount;
+      request.BankAccount = matchedAccount;
       return next();
     })
     .catch(next);
