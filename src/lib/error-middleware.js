@@ -17,6 +17,7 @@ module.exports = (error, request, response, next) => { //eslint-disable-line
 
   if (errorMessage.includes('unauthorized')) {
     logger.log(logger.ERROR, 'unauthorized');
+    logger.log(logger.ERROR, '');
     return response.sendStatus(401);
   }
 
