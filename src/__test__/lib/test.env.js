@@ -6,7 +6,8 @@ const faker = require('faker');
 process.env.PORT = 6000;
 process.env.MONGODB_URI = 'mongodb://localhost/testdb';
 process.env.SECRET = 'xmSgHewtBZv6eblbutok0EjFvAhtB3cBW7UYJkqEzWslUgW4VeaNQ0PFPWFxK460bHrdwfovKSvO5rr9rHHSOg5ltjpnzfTEIYem';
-process.env.AWS_ACCESS_KEY_ID = 'SECRET INFORMATION';
+process.env.AWS_SECRET_ACCESS_KEY = 'SECRET INFORMATION';
+process.env.AWS_ACCESS_KEY_ID = 'SECRET ID';
 process.env.AWS_BUCKET = 'test-bucket';
 
 awsSDKMock.mock('S3', 'upload', (params, callback) => {
