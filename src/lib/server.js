@@ -6,7 +6,9 @@ const logger = require('./logger');
 const loggerMiddleware = require('./logger-middleware');
 const errorMiddleware = require('./error-middleware');
 
+const categoryRoutes = require('../routes/category-router');
 const authRoutes = require('../routes/auth-router');
+const pictureRoutes = require('../routes/picture-router');
 
 const app = express();
 
@@ -16,6 +18,9 @@ const app = express();
 app.use(loggerMiddleware);
 
 app.use(authRoutes);
+app.use(pictureRoutes);
+app.use(categoryRoutes);
+
 
 app.all('*', (request, response) => {
   logger.log(logger.INFO, 'Returning a 404 from catch-all/default route (the route was not found');
