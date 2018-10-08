@@ -56,7 +56,6 @@ function pCreateToken() {
     });
 }
 
-
 bankAccountSchema.methods.pCreateToken = pCreateToken;
 bankAccountSchema.methods.pVerifyPassword = pVerifyPassword;
 

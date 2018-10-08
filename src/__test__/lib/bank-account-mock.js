@@ -15,8 +15,14 @@ bankAccountMock.pCreateMock = () => {
   return BankAccount.create(mock.request.userId, mock.request.email, mock.request.password)
     .then((createdBankAccount) => {
       mock.bankAccount = createdBankAccount;
+      return createdBankAccount.pCreateToken();
+    })
+    .then((token) => {
+      mock.token = token;
       return mock;
     })
-    .catch();
+    .catch((error) => {
+      console.error(error);
+    });
 };
 bankAccountMock.pCleanBankAccountMocks = () => BankAccount.remove({});
