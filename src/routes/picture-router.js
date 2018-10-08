@@ -22,13 +22,6 @@ router.post('/api/picture', bearerAuthMiddleware, upload.any(), (request, respon
   if (!request.body.title || request.files.length > 1) {
     return next(new HttpError(400, 'bad request'));
   }
-  //   return new Picture({
-  //     ...request.body, // O(n)
-  //     account: request.account._id,
-  //   }).save()
-  //     .then(picture => response.json(picture))
-  //     .catch(next);
-  // });
   const file = request.files[0];
 
   const key = `${file.filename}.${file.originalname}`;

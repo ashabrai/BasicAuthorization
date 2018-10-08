@@ -2,38 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e4c1f9-01db-48ce-a561-cd510625eb61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/__test__/lib/categories-mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__test__/lib/picture-mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__test__/picture-router.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/bearer-auth-middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/s3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/picture.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/category-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/picture-router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/_mdb_catalog.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/collection-12-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-12-7633783295624716347.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/collection-2-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-2-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-4-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-4-7633783295624716347.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/index-13-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-13-7633783295624716347.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/index-14-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-14-7633783295624716347.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/index-15-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-15-7633783295624716347.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/index-16-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-16-7633783295624716347.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/index-3-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-3-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-5-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-5-7633783295624716347.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-6-7633783295624716347.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-6-7633783295624716347.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/db/mongod.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/sizeStorer.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/auth-router.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/auth-router.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/lib/bank-account-mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/lib/bank-account-mock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/__test__/lib/test.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/lib/test.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/bankAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/bankAccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__test__/picture-router.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/picture-router.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/picture-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/picture-router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,10 +43,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="env" value="7" />
+          <entry key="env" value="8" />
           <entry key="eslintignore" value="2" />
           <entry key="gitignore" value="3" />
-          <entry key="js" value="142" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="147" />
           <entry key="json" value="10" />
           <entry key="log" value="1" />
           <entry key="md" value="2" />
@@ -70,9 +56,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="2" />
+          <entry key=".env file" value="3" />
+          <entry key="Image" value="1" />
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="142" />
+          <entry key="JavaScript" value="147" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="YAML" value="1" />
@@ -86,17 +73,18 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key=".env file" value="95" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="11944" />
+          <entry key="JavaScript" value="12507" />
           <entry key="Markdown" value="163" />
           <entry key="PLAIN_TEXT" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="env" value="78" />
+          <entry key="env" value="173" />
           <entry key="gitignore" value="19" />
-          <entry key="js" value="11944" />
+          <entry key="js" value="12507" />
           <entry key="json" value="6" />
           <entry key="md" value="163" />
         </counts>
@@ -105,10 +93,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/__test__/picture-router.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/s3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/bearer-auth-middleware.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-156">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/basic-auth-middleware.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="354">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
@@ -117,35 +132,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/picture-router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/__test__/lib/bank-account-mock.js">
+        <entry file="file://$PROJECT_DIR$/src/__test__/auth-router.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/__test__/lib/categories-mock.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/__test__/lib/picture-mock.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="990">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -153,35 +150,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/__test__/lib/test.env.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lib/bearer-auth-middleware.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="87">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/s3.js">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            <state relative-caret-position="75">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -214,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/__test__/lib/auth-router.test.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/lib/error-middleware.js" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/lib/basic-auth-middleware.js" />
         <option value="$PROJECT_DIR$/src/routes/auth-router.js" />
         <option value="$PROJECT_DIR$/.travis.yml" />
@@ -228,12 +206,13 @@
         <option value="$PROJECT_DIR$/src/routes/category-router.js" />
         <option value="$PROJECT_DIR$/src/__test__/lib/picture-mock.js" />
         <option value="$PROJECT_DIR$/src/__test__/auth-router.test.js" />
-        <option value="$PROJECT_DIR$/src/__test__/picture-router.test.js" />
         <option value="$PROJECT_DIR$/src/lib/s3.js" />
         <option value="$PROJECT_DIR$/src/lib/server.js" />
-        <option value="$PROJECT_DIR$/src/routes/picture-router.js" />
-        <option value="$PROJECT_DIR$/src/__test__/lib/test.env.js" />
         <option value="$PROJECT_DIR$/src/lib/bearer-auth-middleware.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/__test__/lib/test.env.js" />
+        <option value="$PROJECT_DIR$/src/routes/picture-router.js" />
+        <option value="$PROJECT_DIR$/src/__test__/picture-router.test.js" />
       </list>
     </option>
   </component>
@@ -257,7 +236,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="465" />
     <option name="y" value="108" />
     <option name="width" value="1280" />
@@ -309,7 +288,26 @@
               <item name="BasicAuthorization" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="__test__" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicAuthorization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicAuthorization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__test__" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicAuthorization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicAuthorization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BasicAuthorization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BasicAuthorization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,17 +349,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest./api/picture.should respond with 200 status code and a picture">
-    <configuration name="AUTH ROUTER.GET should return with a 200 status code and a token" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest./api/categories.should respond with 200 status code and a picture">
+    <configuration name="/api/categories.should respond with 200 status code and a picture" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/__test__/auth-router.test.js" />
+      <test-file value="$PROJECT_DIR$/src/__test__/picture-router.test.js" />
       <test-names>
-        <test-name value="AUTH ROUTER" />
-        <test-name value="GET should return with a 200 status code and a token" />
+        <test-name value="/api/categories" />
+        <test-name value="should respond with 200 status code and a picture" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -408,19 +406,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.AUTH ROUTER.GET should return with a 200 status code and a token" />
       <item itemvalue="Jest./api/login.should respond with 200 status code and a picture" />
       <item itemvalue="Jest./api/pictures.should respond with 200 status code and a picture" />
       <item itemvalue="Node.js.picture-router.js" />
       <item itemvalue="Jest./api/picture.should respond with 200 status code and a picture" />
+      <item itemvalue="Jest./api/categories.should respond with 200 status code and a picture" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest./api/categories.should respond with 200 status code and a picture" />
+        <item itemvalue="Node.js.picture-router.js" />
         <item itemvalue="Jest./api/picture.should respond with 200 status code and a picture" />
         <item itemvalue="Jest./api/pictures.should respond with 200 status code and a picture" />
-        <item itemvalue="Node.js.picture-router.js" />
         <item itemvalue="Jest./api/login.should respond with 200 status code and a picture" />
-        <item itemvalue="Jest.AUTH ROUTER.GET should return with a 200 status code and a token" />
       </list>
     </recent_temporary>
   </component>
@@ -439,55 +437,55 @@
       <workItem from="1538675378238" duration="469000" />
       <workItem from="1538676438887" duration="6760000" />
       <workItem from="1538698136440" duration="19433000" />
-      <workItem from="1538929589993" duration="8170000" />
+      <workItem from="1538929589993" duration="14308000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AUTH_ROUTER_GET_should_return_with_a_200_status_code_and_a_token - 2018.10.04 at 17h 42m 39s.xml">
-      <configuration name="AUTH ROUTER.GET should return with a 200 status code and a token" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 22h 22m 48s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="AUTH_ROUTER_GET_should_return_with_a_200_status_code_and_a_token - 2018.10.04 at 17h 45m 38s.xml">
-      <configuration name="AUTH ROUTER.GET should return with a 200 status code and a token" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 22h 23m 47s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="AUTH_ROUTER_GET_should_return_with_a_200_status_code_and_a_token - 2018.10.04 at 17h 47m 06s.xml">
-      <configuration name="AUTH ROUTER.GET should return with a 200 status code and a token" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 22h 25m 34s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="_api_login_should_respond_with_200_status_code_and_a_picture - 2018.10.04 at 21h 45m 25s.xml">
-      <configuration name="/api/login.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 22h 50m 16s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="_api_pictures_should_respond_with_200_status_code_and_a_picture - 2018.10.04 at 21h 54m 38s.xml">
-      <configuration name="/api/pictures.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 22h 51m 40s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="_api_pictures_should_respond_with_200_status_code_and_a_picture - 2018.10.04 at 21h 58m 04s.xml">
-      <configuration name="/api/pictures.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 22h 53m 14s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="_api_pictures_should_respond_with_200_status_code_and_a_picture - 2018.10.04 at 22h 09m 43s.xml">
-      <configuration name="/api/pictures.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 23h 08m 02s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="_api_picture_should_respond_with_200_status_code_and_a_picture - 2018.10.05 at 13h 59m 57s.xml">
-      <configuration name="/api/picture.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 23h 08m 54s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="_api_picture_should_respond_with_200_status_code_and_a_picture - 2018.10.05 at 14h 04m 17s.xml">
-      <configuration name="/api/picture.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 23h 27m 26s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="_api_picture_should_respond_with_200_status_code_and_a_picture - 2018.10.05 at 14h 48m 51s.xml">
-      <configuration name="/api/picture.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="_api_categories_should_respond_with_200_status_code_and_a_picture - 2018.10.07 at 23h 30m 28s.xml">
+      <configuration name="/api/categories.should respond with 200 status code and a picture" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58342000" />
+    <option name="totallyTimeSpent" value="64480000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="693" y="116" width="1280" height="709" extended-state="0" />
+    <frame x="459" y="0" width="821" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38515902" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.45333335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32739726" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32739726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,6 +498,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.45532647" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32739726" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -619,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/bankAccount.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -657,38 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/__test__/auth-router.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/picture.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__test__/picture-router.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/basic-auth-middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/s3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -706,24 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/picture-router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/__test__/lib/bank-account-mock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__test__/lib/categories-mock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -734,17 +702,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/__test__/lib/test.env.js">
+    <entry file="file://$PROJECT_DIR$/src/__test__/auth-router.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="990">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/lib/categories-mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/assets/brai.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/bearer-auth-middleware.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-156">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/basic-auth-middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/s3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/lib/test.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/picture-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/picture-router.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
         </state>
       </provider>
     </entry>
